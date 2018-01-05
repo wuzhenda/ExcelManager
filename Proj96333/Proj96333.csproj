@@ -48,6 +48,7 @@
     <Compile Include="GLog.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Util_Part.cs" />
     <Compile Include="Util.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -59,6 +60,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="UExcel\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CannyData\CannyData.csproj">
+      <Project>{E6CA4B8B-B658-4CCE-AFAD-DCC636780126}</Project>
+      <Name>CannyData</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -16,7 +16,8 @@ namespace Proj96333
 
             //Util.WriteExcelFile();
             //Util.DF();
-            Util.Up();
+            //Util.Up();
+            Util.UpdateExcel(path);
             Console.ReadLine();
             return;
 
